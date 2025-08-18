@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Fraunces Variablefont Soft Wonk Opsz Wght;
+  src: url('../images/') format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --colors--aqua: #c8f4f2;
+  --colors--bubblegum: #fdcccc;
+  --colors--peach: #ffd9b2;
+  --colors--lemon: #fbfac2;
+  --colors--lavender: #d7c3fe;
+  --colors--black: #1a1a1a;
+  --colors--white: white;
+  --fonts--heading: "Fraunces Variablefont Soft Wonk Opsz Wght", Georgia, sans-serif;
+  --fonts--body-text: "Gothic A1", sans-serif;
+}
+
+
+@font-face {
+  font-family: 'Fraunces Variablefont Soft Wonk Opsz Wght';
+  src: url('../images/') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
