@@ -247,6 +247,7 @@ a, a:hover, a:visited {
   grid-auto-columns: 1fr;
   justify-items: stretch;
   display: flex;
+  position: relative;
 }
 
 .home-projects-item-grid:nth-child(2n) {
@@ -273,6 +274,8 @@ a, a:hover, a:visited {
   align-items: flex-start;
   padding: 40px;
   display: flex;
+  position: sticky;
+  top: 60px;
 }
 
 .collection-list {
@@ -381,6 +384,123 @@ a, a:hover, a:visited {
 
 .sub-page-h1 {
   margin-bottom: 80px;
+}
+
+.project-case-study-info {
+  grid-template-rows: auto;
+  grid-template-columns: 1.5fr 1fr .5fr;
+}
+
+.projects-case-study-info-wrapper {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-flow: column;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+  display: flex;
+}
+
+.text-lable {
+  font-weight: 600;
+}
+
+.case-study-img-grid {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.project-case-study-img {
+  object-fit: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.testmonial-slide-content {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 72px;
+  padding-right: 72px;
+  display: flex;
+}
+
+.testmonial-slider {
+  background-color: #fccdcd;
+  background-image: url('../images/Diamond.svg');
+  background-position: 50%;
+  background-size: auto;
+  height: 767px;
+}
+
+.h2 {
+  font-family: var(--fonts--heading);
+  font-size: 60px;
+  line-height: 130%;
+}
+
+.h2.text-center {
+  width: 100%;
+  max-width: 850px;
+  margin-top: 80px;
+}
+
+.testmonial-person-wrapper {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 60px;
+  display: flex;
+}
+
+.testmonial-img {
+  border: 2px solid var(--colors--black);
+  border-radius: 999px;
+  width: 57px;
+  height: 57px;
+}
+
+.testmonial-person-info-text {
+  line-height: 150%;
+}
+
+.testmonial-person-info-text.text-bold {
+  font-weight: 700;
+}
+
+.testmonial-h2 {
+  font-family: var(--fonts--body-text);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.testmonial-slider-arrow {
+  padding-right: 80px;
+}
+
+.testmonial-slider-arrow.left-arrow {
+  transform: rotate(180deg);
+}
+
+.slider-arrow-wrapper {
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  display: flex;
+}
+
+.testmonial-slider-nav {
+  display: none;
 }
 
 #w-node-_89de8f7c-ef38-d48e-7fcd-aad1a1787398-e1cb0ac4, #w-node-_89de8f7c-ef38-d48e-7fcd-aad1a17873a0-e1cb0ac4 {
